@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big-Brain</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">BigBrain</a>
+      <nav class="navbar">
+        <a href="" class="nav-link">Home</a>
+        <a href="" class="nav-link">Challenges</a>
+        <a href="" class="nav-link">MyChallenges</a>
+        <a href="" class="nav-link">Profile</a>
+        <a href="" class="nav-link">Account</a>
+      </nav>
+    </header>
+    <div class="container">
+      <aside class="filter-content">
+        <h3>
+          Filter <span class="material-symbols-outlined"> filter_alt </span>
+        </h3>
+
+        <div>
+          <label for="category">Category</label>
+          <select name="category" id="category">
+            <option value="IT">IT Bilişim</option>
+            <option value="IT">IT</option>
+            <option value="IT">IT</option>
+            <option value="IT">IT</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="category">difficulty</label>
+          <select name="difficulty" id="difficulty">
+            <option value="IT">Easy</option>
+            <option value="IT">Normal</option>
+            <option value="IT">Hard</option>
+            <option value="IT">Challenge</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="time">Time</label>
+          <select name="time" id="time">
+            <option value="IT">Week</option>
+            <option value="IT">Month</option>
+            <option value="IT">Year</option>
+            <option value="IT">Day</option>
+          </select>
+        </div>
+        <div>
+          <button id="filter-btn">
+            <span class="material-symbols-outlined"> search </span>
+          </button>
+        </div>
+      </aside>
+      <section class="challenge-container">
+        <h2>Challenges</h2>
+        <div class="challenges">
+          <div class="challenge-card">
+            <div class="challenge-card-img">
+              <img src="./dra.png" alt="" width="250px" height="250px" />
+            </div>
+            <div class="challenge-card-header">Challenge Name</div>
+            <div class="challenge-card-details-btn">
+              <button>
+                <span class="material-symbols-outlined"> chevron_right </span>
+              </button>
+            </div>
+          </div>
+          <div class="challenge-card"></div>
+          <div class="challenge-card"></div>
+          <div class="challenge-card"></div>
+          <div class="challenge-card"></div>
+          <div class="challenge-card"></div>
+          <div class="challenge-card"></div>
+          <div class="challenge-card"></div>
+          <div class="challenge-card"></div>
+          <div class="challenge-card"></div>
+          <div class="challenge-card"></div>
+          <div class="challenge-card"></div>
+        </div>
+      </section>
+    </div>
+
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #071952;
+  font-family: "Source Code Pro", monospace;
+}
+
+header a.logo {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+header {
+  background-color: #088395;
+  position: sticky;
+  width: 100%;
+  height: 2cm;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav.navbar a.nav-link {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+nav.navbar a.nav-link:hover {
+  text-decoration: underline;
+}
+
+section.welcome {
+  margin-top: 2.4cm;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+
+section.welcome p.welcome-text {
+  color: white;
+  font-size: 2rem;
+  padding: 3rem;
+}
+section.welcome img {
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px 2px rgba(228, 216, 216, 0.3);
+}
+
+section.challenges-images {
+  background-color: #35a29f;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem;
+  width: 100%;
+  padding: 2rem;
+}
+section.challenges-images img {
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.3);
+}
+section.challenges-images img:nth-child(even) {
+  transform: scale(1.1);
+}
+
+section.properties {
+  color: white;
+  font-size: 2rem;
+  width: 100%;
+  padding: 4rem 2rem;
+
+  text-align: center;
+}
+
+section.properties ul {
+  list-style-type: none;
+  line-height: 2;
+}
+section.properties ul span {
+  color: #35a29f;
+  font-size: 3rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px; /* width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; /* color of the scroll handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color of the scroll handle on hover */
+}
+
+aside.filter-content {
+  width: 18%;
+
+  background-color: #fbf6ee;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+}
+aside.filter-content div {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+aside.filter-content div label {
+  font-size: 1.2rem;
+}
+aside.filter-content div select {
+  width: 150px;
+  font-size: 1.1rem;
+  padding: 0.4rem 0.5rem;
+  margin-left: 0.2rem;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #f1f1f1;
+}
+aside.filter-content button#filter-btn {
+  width: 100%;
+  display: block;
+  height: 50px;
+  font-size: 2rem;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  border: 1px solid #f1f1f1;
+}
+div.container {
+  width: 100%;
+  display: flex;
+}
+section.challenge-container {
+  width: 100%;
+
+  background-color: #f1f1f1;
+}
+
+div.challenges {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+div.challenge-card {
+  width: 18%;
+  height: 40vh;
+  border: 1px solid #ffb534;
+  margin-top: 2rem;
+  border-radius: 0px;
+  box-shadow: 2px 2px 1px 1px #ffb534;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+div.challenge-card:hover {
+  box-shadow: 4px 4px 4px 1px #ffb534;
+}
+
+div.challenge-card-img img {
+  border-radius: 8px;
+}
+
+div.challenge-card-header {
+  font-size: 1.3rem;
+  padding: 0.6rem 1.3rem;
+}
+div.challenge-card-details-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+div.challenge-card-details-btn button {
+  width: 30%;
+  height: 50px;
+  display: block;
+  font-size: 1.2rem;
+  background-color: #ffb534;
+  outline: none;
+  border: 1px solid #ffb534;
+  cursor: pointer;
+  border-radius: 6px;
+}
+div.challenge-card-details-btn button span {
+  font-size: 2rem;
+  color: #f1f1f1;
+}
+
+div.challenge-card-details-btn button:hover {
+  background-color: #f1f1f1;
+}
+div.challenge-card-details-btn button:hover span {
+  color: #ffb534;
+}
