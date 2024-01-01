@@ -215,3 +215,44 @@ div.challenge-card-details-btn button:hover {
 div.challenge-card-details-btn button:hover span {
   color: #ffb534;
 }
+
+section.challenge-details-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section.tab-menu-container {
+  width: 100%;
+  background-color: #071952;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section.tab-menu-container div.tab-menu {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+div.tab-menu button {
+  font-size: 2rem;
+  background: none;
+  color: #35a29f;
+  padding: 10px;
+
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+div.tab-menu button.active {
+  border-bottom: 4px solid #ffb534;
+}
