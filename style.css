@@ -241,6 +241,8 @@ section.tab-menu-container div.tab-menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border: 2px solid #ffb534;
+  padding: 0.3rem;
 }
 div.tab-menu button {
   font-size: 2rem;
@@ -253,6 +255,42 @@ div.tab-menu button {
   border: none;
 }
 
-div.tab-menu button.active {
+div.tab-menu button:hover {
   border-bottom: 4px solid #ffb534;
+}
+
+section.about {
+  width: 80%;
+  min-height: 15vh;
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+
+section.benefits {
+  width: 80%;
+  min-height: 15vh;
+  background-color: #071952;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  font-size: 1.3rem;
+  color: #f1f1f1;
+}
+section.benefits p.benefit {
+  width: 80%;
+  letter-spacing: 1px;
+  padding: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.benefits p.benefit span {
+  margin-right: 2rem;
+  color: #35a29f;
+  font-size: 3rem;
 }
