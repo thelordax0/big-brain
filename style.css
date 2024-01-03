@@ -294,3 +294,24 @@ section.benefits p.benefit span {
   color: #35a29f;
   font-size: 3rem;
 }
+
+section.rules {
+  width: 80%;
+  min-height: 15vh;
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+section.rules ul li.rule:nth-child(even)::marker {
+  color: #35a29f;
+}
+section.rules ul li.rule {
+  padding: 1rem;
+  width: 80%;
+  list-style-type: decimal;
+  margin-left: auto;
+  margin-right: auto;
+}
