@@ -223,6 +223,14 @@ section.challenge-details-container {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  font-size: 1.4rem;
+}
+section.challenge-details-container p.time-duration,
+p.joined-users {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 7vw;
 }
 
 section.tab-menu-container {
@@ -241,13 +249,16 @@ section.tab-menu-container div.tab-menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 2px solid #ffb534;
   padding: 0.3rem;
+  border-bottom: 2px solid #f1f1f1;
+  border-top: 2px solid #f1f1f1;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
-div.tab-menu button {
-  font-size: 2rem;
+div.tab-menu a.tab-btn {
+  font-size: 1.4rem;
   background: none;
-  color: #35a29f;
+  color: #f1f1f1;
   padding: 10px;
 
   cursor: pointer;
@@ -255,8 +266,9 @@ div.tab-menu button {
   border: none;
 }
 
-div.tab-menu button:hover {
-  border-bottom: 4px solid #ffb534;
+div.tab-menu a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f1f1f1;
 }
 
 section.about {
@@ -273,13 +285,13 @@ section.about {
 section.benefits {
   width: 80%;
   min-height: 15vh;
-  background-color: #071952;
+  background-color: #f1f1f1;
+
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   padding: 2rem;
   font-size: 1.3rem;
-  color: #f1f1f1;
 }
 section.benefits p.benefit {
   width: 80%;
@@ -287,7 +299,8 @@ section.benefits p.benefit {
   padding: 1rem;
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
 }
 section.benefits p.benefit span {
   margin-right: 2rem;
@@ -307,6 +320,9 @@ section.rules {
 }
 section.rules ul li.rule:nth-child(even)::marker {
   color: #35a29f;
+}
+section.rules ul li.rule::marker {
+  font-size: 1.4rem;
 }
 section.rules ul li.rule {
   padding: 1rem;
