@@ -227,10 +227,23 @@ section.challenge-details-container {
 }
 section.challenge-details-container p.time-duration,
 p.joined-users {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 7vw;
+  width: 10vw;
+}
+
+button.join-challenge-btn {
+  background-color: #ffb534;
+  color: #f1f1f1;
+  font-size: 2rem;
+  margin-top: 4rem;
+  width: 12vw;
+  border: none;
+  cursor: pointer;
+}
+
+button.join-challenge-btn:hover {
+  background-color: #dd9517;
 }
 
 section.tab-menu-container {
